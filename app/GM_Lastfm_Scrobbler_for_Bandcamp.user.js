@@ -3,9 +3,10 @@
 // @namespace   Rimantas Galvonas
 // @description Last.fm scrobbler for Bandcamp, based on GM Scrobbler for Pakartot.lt script
 // @include     *.bandcamp.com/*
+// @require https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
 // @require https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js
 // @require https://greasyfork.org/scripts/130-portable-md5-function/code/Portable%20MD5%20Function.js?version=10066
-// @version     1.14
+// @version     1.15
 // @grant       none
 // ==/UserScript==
 jQuery("#propOpenWrapper").append("<div id='scrobblerdiv' style='position:absolute; right:20px; top:20px; z-index:999'><div id='togglescrobbling' style='width:20px; height:20px; border-radius:10px; border: 1px solid black; background-color:rgb(43, 177, 43); line-height:20px; text-align:center;'></div></div>");
